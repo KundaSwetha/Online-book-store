@@ -1,0 +1,143 @@
+.aab{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: pink;
+  top: 0;
+  font-size: 20px;
+}
+
+.homepage{
+  float: left;
+}
+.homepage a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.homepage a:hover{
+  background-color: green;
+  overflow: hidden;
+  color: white;
+}
+
+
+.h1{
+  text-align: center;
+  color: green;
+  padding-top: 1%;
+
+}
+.booksstore{
+ border: 2px solid black;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+
+.h2
+{
+  color: red;
+  text-align: center;
+}
+.books{
+
+  padding:3%;
+
+
+}
+.arclass{
+
+  padding: 1%;
+  justify-content: center;
+  text-align: center;
+
+
+
+}
+#p{
+  text-align: center;
+}
+
+
+  .b{
+
+    background-image: url(../img/back2.jpg);
+
+  }
+  #quote{
+    margin-left: 50%;
+  }
+#swet{
+  float: left;
+  width: 90px;
+
+}
+.rights{
+font-size: 20px;
+  background-color: pink;
+
+}
+/*media queries */
+@media  only screen and (max-width:425px){
+  .booksstore{
+    border:2px solid #000;
+   display: flex;
+flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+
+}
+
+
+}
+
+@media screen and (min-width:426px) and (max-width:768px) {
+  .booksstore{
+    border:2px solid #000;
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+}
+.style{
+  font-style: italic;
+  font-size: 20px;
+}
+.arclass {
+  width: 45%;
+}
+}
+@media screen and (min-width:769px) and (max-width:1440px) {
+  .booksstore{
+    border:2px solid #000;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.style{
+  font-style: oblique;
+  font-size: 170%;
+}
+.aab{
+  font-size: 170%;
+}
+h1{
+  font-size: 280%;
+}
+#h{
+  font-size: 150%;
+}
+h2{
+  font-size: 200%;
+}
+#p{
+  font-size: 160%;
+}
+}
